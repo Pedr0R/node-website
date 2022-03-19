@@ -77,4 +77,5 @@ app.get('/', (req, res) => {
 app.use('/books', require('./routes/books'));
 
 //log in/register routes
-app.use('/user', require('./routes/user'))
+app.use('/users', require('./routes/users'))
+

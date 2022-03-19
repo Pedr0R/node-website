@@ -1,0 +1,33 @@
+<div  id="login-form-container" class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Crie sua conta</h1>
+    </div>
+    <div id="login-form-box" class="col-md-12">
+      <form action="/users/register" method="post">
+        <div id="login-form-group">
+          <label for="username">Crie um nome de usuário:</label>
+          <input type="text" class="form-control"  name="username" id="username" placeholder="Ex: pedro1234" required>
+        </div>
+        <div id="login-form-group">
+          <label for="password">Crie sua senha:</label>
+          <input type="text" class="form-control"  name="password" id="password" placeholder="Digite sua senha" required>
+        </div>
+        <div id="login-form-group">
+          <label for="confirm_password">Confirme sua senha:</label>
+          <input type="text" class="form-control"  name="password" id="password" placeholder="Confirme sua senha" required>
+        </div>
+        <div id="login-form-group">
+          <label for="email">Digite seu email:</label>
+          <input type="text" class="form-control"  name="email" id="email" placeholder="email" required>
+        </div>
+        <input type="hidden" name="confirmed_user" value="0">
+        <button type="submit" class="btn btn-primary">REGISTRAR-SE</button>
+        <div id='login-form-group'>
+          <label for="register">Já possui uma conta? Tente </label>
+          <a class"nav-link btn btn-primary" href="/users/login">ENTRAR</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

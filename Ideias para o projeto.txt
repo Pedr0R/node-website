@@ -1,7 +1,0 @@
-#Features para implementar no RC:
-
-- Logo real
-- Sistema de login
-- Perfil customisável
-- Sistema de Chat integrado
-- Reorganizar a view dos livros
