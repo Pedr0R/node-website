@@ -1,0 +1,28 @@
+{
+  "name": "book_finder",
+  "version": "1.0.0",
+  "description": "Esse é um sistema para leitores compartilharem livros.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "books",
+    "free",
+    "books",
+    "share",
+    "reading"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

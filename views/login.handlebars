@@ -1,0 +1,24 @@
+<div  id="login-form-container" class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Faça Login</h1>
+    </div>
+    <div id="login-form-box" class="col-md-12">
+      <form action="/user/login" method="get">
+        <div id="login-form-group">
+          <label for="username">Nome de usuário:</label>
+          <input type="text" class="form-control"  name="username" id="username" placeholder="Ex: pedro1234" required>
+        </div>
+        <div id="login-form-group">
+          <label for="password">Senha:</label>
+          <input type="text" class="form-control"  name="password" id="password" placeholder="Digite sua senha" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+        <div id='login-form-group'>
+          <label for="register">Não possui uma conta? Tente</label>
+          <a class"nav-link btn btn-primary" href="/user/register">REGISTRAR-SE</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

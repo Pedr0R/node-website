@@ -1,0 +1,34 @@
+<div id="add-form-container" class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center">Divulgue o livro preenchendo o formulário</h1>
+    </div>
+    <div id="form-box" class="col-md-12">
+      <h2 class="text-center">Preencha-os corretamente para que nós possamos lista-lo da melhor forma possivel</h2>
+      <form action="/books/add" method="post">
+        <div id="form-group">
+          <label for="title">Titulo do livro:</label>
+          <input type="text" class="form-control" id="title" name="title" placeholder="Digite o nome do livro" required>
+          <small id="title-help" class="form-text text-muted">é isso ai</small>
+        </div>
+        <div id="form-group">
+          <label for="author">Autor do livro:</label>
+          <input type="text" class="form-control" id="author" name="author" placeholder="Digite o autor do livro" required>
+          <small id="title-help" class="form-text text-muted">é isso ai</small>
+        </div>
+        <div id="form-group">
+          <label for="user">Dono do livro:</label>
+          <input type="text" class="form-control" id="user" name="user" placeholder="Dono do livro" required>
+          <small id="title-help" class="form-text text-muted">é isso ai</small>
+        </div>
+        <div id="form-group">
+          <label for="description">Descrição do livro:</label>
+          <textarea type="text" class="form-control" id="description" name="description" placeholder="Descreva o livro" required></textarea>
+          <small id="title-help" class="form-text text-muted">é isso ai</small>
+        </div>
+        <input type="hidden" name="new_book" value="1">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
